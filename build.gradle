@@ -4,6 +4,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven'
 apply plugin: 'org.springframework.boot'
 
+
+
 buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:" + springBootVersion)
